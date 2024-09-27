@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vores Brand Identitet</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Google Font: Montserrat -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121216;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            background: url('img/background.jpg') no-repeat center center, linear-gradient(-180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            background-size: cover;
+            /* Ensures the image covers the entire navbar */
+            backdrop-filter: blur(50px);
+            /* Applies a blur effect to the background */
+            opacity: 0.9;
+            /* Adjusts opacity */
+        }
+        .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.5);
+            /* Change border color to a semi-transparent white */
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        .btn-primary {
+            background-color: #00d9ff;
+            border: none;
+        }
+
+        .custom-card {
+            background-color: #000;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .custom-card img {
+            max-width: 100%;
+            min-height: 300px;
+        }
+
+        .text-custom {
+            color: #ff4bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand text-white" href="#"><img src="img/logo.png" alt="MyMultiMedia Logo" height="42px"
+                class="d-inline-block align-top"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="hjem.html">Hjem</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="losninger.html">Løsninger</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="omos.html">Om os</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="kontact.html">Kontakt</a></li>
+                <li class="nav-item"><a class="btn btn-primary" href="#">Få tilbud</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container mt-5">
+        <h2 class="text-white">Vores Brand Identitet</h2>
+        <p>MyMultimedia positionerer sig som et bureau, der er på forkant med teknologisk udvikling og er i stand til at
+            skabe unikke digitale oplevelser. Vi ønsker at være kendt som innovatører, der ikke blot følger med
+            udviklingen, men aktivt bidrager til at forme den.
+        </p>
+        <ul>
+            Vores brandpersonlighed er:
+            <li>Fremtidsorienteret: Vi er altid et skridt foran og søger konstant efter nye måder at implementere
+                teknologi i vores løsninger.</li>
+            <li>Kreativ: Vores tilgang er præget af en høj grad af kreativitet, der kombinerer design og teknologi på en
+                måde, som andre bureauer sjældent formår.</li>
+            <li> Pålidelig: Selvom vi er innovative, er vi samtidig jordnære og fokuserede på at levere løsninger, der
+                skaber reel værdi for vores kunder.</li>
+        </ul>
+
+
+
+
+        <!-- Example Tools Section -->
+        <h4 class="text-white">Eksempel på vores værktøjer</h4>
+        <div class="custom-card p-3 mb-4">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <img src="img/logo-image.png" alt="Logo">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/typography-image.png" alt="Logo">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/color-palette-image.png" alt="Color Palette">
+                </div>
+            </div>
+        </div>
+
+        <!-- Example Work Section -->
+        <h4 class="text-white">Eksempel på vores værk</h4>
+        <p>Herunder ser i et webbanner som et eksempel på de typer af værker vi kan lave</p>
+        <div class="p-3 mb-4">
+            <img src="img/gif.gif" alt="Example Work" class="w-100">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white mt-5 py-3" style="background-color: #121216;">
+        <p>© 2024 MyMultiMedia. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

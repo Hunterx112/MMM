@@ -1,0 +1,21 @@
+body {
+    background-color: #121216;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #704ff7;
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #1a1a1d;
+}
